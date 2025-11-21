@@ -1,3 +1,4 @@
+
 import { GoogleGenAI } from "@google/genai";
 
 // Safe initialization: The API key must be obtained exclusively from process.env.API_KEY.
@@ -47,10 +48,10 @@ const getLocalFallbackResponse = (question: string, resumeContext: string): stri
   }
 
   // 5. General Sentence Search (Simple Vector-like search)
-  // Clean resume text: normalize spaces, split into sentences
+  // Improved splitting: split by newlines OR periods to capture bullet points
+  // This prevents retrieving giant chunks of text as a single match
   const sentences = resumeContext
-    .replace(/([.?!])\s*(?=[A-Z])/g, "$1|")
-    .split("|")
+    .split(/(?:\r\n|\r|\n|\. )+/)
     .map(s => s.trim())
     .filter(s => s.length > 15); // Filter out short fragments/headers
 

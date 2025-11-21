@@ -187,8 +187,11 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
   };
 
   const formatMessage = (text: string) => {
+    // CLEANING: Replace literal "\n" strings (which sometimes come from raw JSON) with real newlines
+    const cleanText = text.replace(/\\n/g, '\n');
+
     // Split by double newlines to create blocks (paragraphs, lists, headers)
-    const blocks = text.split(/\n\n+/);
+    const blocks = cleanText.split(/\n\n+/);
     
     return blocks.map((block, idx) => {
       const trimmedBlock = block.trim();
@@ -205,8 +208,9 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
       }
 
       // 2. List Detection (starts with *, -, or •)
+      // Also handles cases where the block is just multiple lines of bullets
       if (trimmedBlock.startsWith('* ') || trimmedBlock.startsWith('- ') || trimmedBlock.startsWith('• ')) {
-        const listItems = block.split(/\n/).filter(line => line.trim().length > 0);
+        const listItems = trimmedBlock.split(/\n/).filter(line => line.trim().length > 0);
         return (
           <ul key={idx} className="mb-4 pl-5 space-y-2">
             {listItems.map((item, i) => (
