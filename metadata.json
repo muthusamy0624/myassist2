@@ -1,0 +1,7 @@
+{
+  "name": "Muthusamy AI Assistant 1",
+  "description": "A personal 3D voice assistant website powered by Gemini and Supabase.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
