@@ -13,38 +13,62 @@ const MOCK_PROFILE: Profile = {
   github: 'https://github.com/muthusamy0624',
   image_url: 'https://picsum.photos/200/200',
   resume_url: '',
-  resume_text: `Muthusamy
+  resume_text: `MUTHUSAMY M
 Software Engineer
 
-Summary:
-I am a passionate and dedicated Software Engineer with a robust background in Full Stack Development. I specialize in building scalable, high-performance web applications using modern technologies like React, Node.js, and TypeScript. My journey in tech has been driven by a curiosity to solve complex problems and a desire to create user-centric digital experiences. I have a strong aptitude for integrating Artificial Intelligence into web platforms, as demonstrated by my work with the Gemini API and Supabase.
+CONTACT:
+Email: muthusamy0624@gmail.com
+Phone: 8072678774
+LinkedIn: https://www.linkedin.com/in/muthusamy-m-ba3066258
+HackerRank: https://www.hackerrank.com/profile/22it0303
+LeetCode: https://leetcode.com/u/710722205030/
 
-Skills:
-- Frontend: JavaScript (ES6+), TypeScript, React.js, HTML5, CSS3, Tailwind CSS, Redux.
-- Backend: Node.js, Express.js, Python.
-- Database: SQL, PostgreSQL, Supabase, MongoDB.
-- Tools: Git, GitHub, VS Code, Android Studio, Arduino IDE, Canva, NS2.
-- Concepts: RESTful APIs, Agile Methodologies, Data Structures & Algorithms, IoT, Cloud Computing.
+OBJECTIVE:
+Seeking an entry-level position in Information Technology where I can leverage my technical expertise, problem-solving abilities, and passion for innovation to drive organizational success.
 
-Education:
-B.Tech in Information Technology from Dr. N.G.P Institute of Technology (Expected 2026). I have maintained a strong academic record, focusing on core computer science principles.
-Completed 12th Standard in 2022 with 90.6%.
-Completed 10th Standard in 2020 with 95%.
+EDUCATION:
+- B.TECH [Information Technology] (2022-2026): DR.N.G.P INSTITUTE OF TECHNOLOGY - 84%
+- 12th Standard (2022): A.R.CHENNIMALAIGOUNDER MATRIC HR SEC SCHOOL - 90.6%
+- 10th Standard (2020): A.R.CHENNIMALAIGOUNDER MATRIC HR SEC SCHOOL - 95%
 
-Experience:
-Intern at Pinesphere Solutions: I gained hands-on experience during a 15-day Low Code Platform Internship where I worked with WordPress to build responsive websites.
-Freelance Projects: Developed custom web solutions for various clients, focusing on performance optimization and SEO.
+SKILLS:
+- Programming Languages: Java, C
+- Web Development: HTML, CSS, JavaScript
+- Database Management: SQL
+- Tools: Android Studio, Visual Studio Code, Arduino IDE, Canva, NS2
 
-Projects:
-1. AI Voice Assistant (Personal Portfolio): A cutting-edge 3D personal assistant website. It features a conversational AI powered by Google's Gemini model, voice synthesis, and a dynamic React frontend.
-2. Data Dissemination for Traffic Prevention: A research-based project using NS2 simulation to analyze Vehicular Ad Hoc Networks (VANETs) for mitigating traffic congestion.
-3. Smart Campus Cleanliness Management System: An IoT solution utilizing Arduino and cloud connectivity to monitor and manage waste disposal on campus in real-time.
+PROJECTS:
+1. Restaurant Recommendation System (2023)
+   - Tool Used: HTML, CSS, JavaScript
+   - Description: Developed a web-based application to recommend restaurants based on user preferences. Designed and implemented the user interface; Integrated and tested recommendation algorithms.
 
-Certifications:
-- Programming in Java (NPTEL)
-- IoT and Web 4.0 (NPTEL)
-- Introduction to Industry 4.0 and IIoT (NPTEL)
-- DSA Training
+2. Data Dissemination for Traffic Prevention in NS2 Stimulation Using Access Point (2024)
+   - Tools Used: NS2
+   - Description: This project focuses on data dissemination in Vehicular Ad Hoc Networks (VANET) using access points to prevent traffic congestion. NS2 simulation is utilized to evaluate the effectiveness of the approach in improving traffic flow.
+
+3. Smart Campus Cleanliness Management System (2025)
+   - Technologies Used: App Development, IoT
+   - Description: Created a digital solution to manage campus cleanliness efficiently. Led the development of the app interface and integrated IoT devices for real-time cleanliness monitoring.
+
+INTERNSHIPS:
+- Low Code Platform Intern at Pinesphere Solutions (2024): Gained hands-on experience with low-code platforms using WordPress, rapidly developing and deploying websites with no coding.
+- Technical Internship at National Institute of Technology, Tiruchirapalli: Focused on data creation for machine learning applications. Developed and published a dataset of Cowrie Shells on Kaggle.
+- Industry Internship at KrishTec in Coimbatore: Focused on IoT fundamentals, developing responsive IoT applications.
+
+CERTIFICATIONS:
+- Programming in Java (NPTEL) (60%, April-2024)
+- IoT and Web 4.0 (NPTEL) (65%, October-2024)
+- DSA Training - Finest Coder & CodingMart Technologies
+
+ACHIEVEMENTS:
+- Secured Elite Certification in Introduction to Industry 4.0 and IIoT (NPTEL).
+- Won Second Place in Code Debugging and Modelathon, KIT, Coimbatore.
+- Won First Place in Classical Group Dance (Oyilattam) District Level Coimbatore.
+
+LEADERSHIP ACTIVITIES:
+- Served as Office Bearer of XEMAC (IT Association), leading peers in organizing technical and cultural events.
+- Coordinated project presentations and guided juniors in technical tasks.
+- Mentored peers during coding/debugging contests.
 `,
   updated_at: new Date().toISOString()
 };
